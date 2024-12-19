@@ -64,7 +64,7 @@ const Auth = () => {
 
             {/* Auth Section */}
             <div className="flex items-center justify-center p-6 bg-gray-50 border-2 ">
-                <div className="w-full p-10 h-[620px] space-y-8 border-2 bg-white rounded-2xl">
+                <div className="w-full p-10 min-h-[620px] space-y-8 border-2 bg-white rounded-2xl">
                     <div className="text-center space-y-4">
                         <div className="flex justify-center">
                             <div className="flex items-center gap-2">
