@@ -1,12 +1,13 @@
 import React from "react";
 import DesktopSidebar from "./DesktopSideBar";
-import MobiSideBar from "./MobileSideBar";
+import MobileSideBar from "./MobileSideBar";
 
-export default function SideBar({isOpen,onclose}){
+export default function SideBar({isOpen,onClose}){
   return (
-    <div>
-      <div className="hidden md:flex"><DesktopSidebar /></div>
-      <div className="md:hidden"><MobiSideBar /></div>
+    <div className="w-fit h-fit ">
+      
+      <div className="hidden lg:flex !w-fit !h-fit "><DesktopSidebar /></div>
+      <div className="lg:hidden !w-fit !h-fit "><MobileSideBar isOpen={isOpen}  onClose={onClose} /></div>
     </div>
   )
 }
