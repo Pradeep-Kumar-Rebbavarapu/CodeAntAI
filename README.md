@@ -16,6 +16,10 @@
 
 ## Getting Started
 
+### Available Routes
+#### / : Repository Page
+#### /auth : Login (or) Signup Page
+
 ### Installation
 
 Install the dependencies:
