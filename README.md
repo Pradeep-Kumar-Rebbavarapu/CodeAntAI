@@ -2,7 +2,7 @@
 # CodeAnt AI
 
 
-[![View Website](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](aaaaaaa)
+[![View Website](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://codeantai-production.up.railway.app)
 
 ## Features
 
